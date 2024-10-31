@@ -4,7 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 /**
- *ver.2.0
+ *ver.2
  */
 public class Cal extends JFrame {
     // GUI 구성 요소
