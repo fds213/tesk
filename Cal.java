@@ -4,9 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 /**
- * 간단한 계산기 애플리케이션 GUI를 제공하는 클래스.
- * 덧셈, 뺄셈, 곱셈, 나눗셈과 같은 기본 연산뿐만 아니라,
- * % 연산, +/- 기호 전환, 전체 지우기(C), 하나 지우기(⌫) 기능을 지원함.
+ *ver.2
  */
 public class Cal extends JFrame {
     // GUI 구성 요소
