@@ -1,10 +1,19 @@
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.*;
 
 /**
- *ver.2
+ *version 2.0
+ *
+ * @created 2024-10-15
+ * @lastModified 2024-10-30
+ *
+ * @changelog
+ * <ul>
+ *  <li>2024-10-15: 최초 생성 (fds213)</li>
+ *  <li>2024-10-19: 계산기 UI개선</li>
+ * <li>2024-10-21: </li>
+ * </ul>
  */
 public class Cal extends JFrame {
     // GUI 구성 요소
