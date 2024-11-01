@@ -13,6 +13,8 @@ import java.awt.event.*;
  *  <li>2024-10-15: 최초 생성 (fds213)</li>
  *  <li>2024-10-19: 계산기 UI개선</li>
  * <li>2024-10-21: </li>
+ * <li>2024-10-30: 계산 기능 추가</li>
+ * <li>2024-10-31: 연산자 %추가, +/-추가</li>
  * </ul>
  */
 public class Cal extends JFrame {
