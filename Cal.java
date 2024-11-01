@@ -3,7 +3,7 @@ import java.awt.*;
 import java.awt.event.*;
 
 /**
- *version 2.0
+ *version 2.00
  *"Icon.png" 아이콘 사진이 src폴더에 없을경우 오류!!
  *
  * @created 2024-10-15
