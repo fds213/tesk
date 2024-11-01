@@ -4,16 +4,17 @@ import java.awt.event.*;
 
 /**
  *version 2.0
+ *"Icon.png" 아이콘 사진이 src폴더에 없을경우 오류!!
  *
  * @created 2024-10-15
- * @lastModified 2024-10-30
+ * @lastModified 2024-10-31
  *
  * @changelog
  * <ul>
  *  <li>2024-10-15: 최초 생성 (fds213)</li>
  *  <li>2024-10-19: 계산기 UI개선</li>
- * <li>2024-10-21: </li>
- * <li>2024-10-30: 계산 기능 추가</li>
+ * <li>2024-10-21: 계산기 아이콘 추가</li>
+ * <li>2024-10-30: 버튼 입력 및 계산 기능 추가</li>
  * <li>2024-10-31: 연산자 %추가, +/-추가</li>
  * </ul>
  */
@@ -78,7 +79,7 @@ public class Cal extends JFrame {
             bp.add(button);
         }
 
-        // 아이콘 설정
+        // 아이콘 설정 (Icon.png가 src폴더 안에 있어야됨!!)
         setIconImage(new ImageIcon(getClass().getResource("/Icon.png")).getImage());
 
         setVisible(true); // 창 보이기 설정
